@@ -1,3 +1,5 @@
+// for set any default value in function parameter we will use '=' sign and set the default value
+
 // function sum(num1, num2){ //parameter num1 and num2 
 // function sum(num1, num2 = 30){ // default parameter num2=20
 function sum(num1, num2 = 30){ 
@@ -24,11 +26,16 @@ function fullName (first, last = ''){
 }
 fullName('mtichy')
 /**
- * default value for:
+ *some thumb rule of default value maybe useful:
  * 
  * add, sub ---> 0
  * 
  * mul, div ---> 1
  * 
  * string, ---> ''
+ * 
+ * array, ---> []
+ * 
+ * object, ---> {}
+ * 
  */
