@@ -37,3 +37,6 @@ const doMath = (x, y) => {
 
 const result3 = doMath(12, 3)
 console.log(result3);
+
+const sayHello = () => console.log("Hello World");
+sayHello();
